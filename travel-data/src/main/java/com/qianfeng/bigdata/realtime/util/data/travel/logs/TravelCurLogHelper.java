@@ -10,6 +10,7 @@ import com.qianfeng.bigdata.realtime.util.QParameterTool;
 import com.qianfeng.bigdata.realtime.util.kafka.producer.KafkaProducerUtil;
 import org.apache.commons.lang3.StringUtils;
 
+import java.io.Serializable;
 import java.time.temporal.ChronoUnit;
 import java.util.*;
 /**
@@ -18,7 +19,7 @@ import java.util.*;
 *@Date 2020/3/26 0026
 *@Description 用户当前旅游行为日志模拟构造器
 **/
-public class TravelCurLogHelper {
+public class TravelCurLogHelper implements Serializable {
 
     //=====基础信息==============================================================
     //kafka分区Key

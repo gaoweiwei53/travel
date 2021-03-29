@@ -67,6 +67,7 @@ object QRealtimeCommFun {
         localCache.putAll(dbResult)
       }else{
         val key = dbQuery.table
+        // 将mysql中的维度数据缓存到redis中
         redisCmd.hmset(key, dbResult)
       }
     }

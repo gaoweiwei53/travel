@@ -81,10 +81,10 @@ object QRealTimeConstant {
   //===es索引 用户日志=====================================
   //启动日志聚合数据对应es索引名称
   val ES_INDEX_NAME_LOG_LAUNCH_AGG = "travel_log_launch_agg"
-  val ES_INDEX_NAME_LOG_VIEW = "travel_log_pageview"
+  val ES_INDEX_NAME_LOG_VIEW = "travel_dw_userPageView_detail"
   val ES_INDEX_NAME_LOG_VIEW_LOW = "travel_log_pageview_low"
   //用户日志点击行为明细数据对应es索引名称
-  val ES_INDEX_NAME_LOG_CLICK = "travel_log_click"
+  val ES_INDEX_NAME_LOG_CLICK = "travel_log_click_detail"
   val ES_INDEX_NAME_LOG_CLICK_STATIS = "travel_log_click_statis"
   //ES同记录写入并发重试次数
   val ES_RETRY_NUMBER = 15

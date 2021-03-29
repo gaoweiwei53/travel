@@ -72,6 +72,12 @@
             <scope>${scope}</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-parquet_2.11</artifactId>
+            <version>1.9.1</version>
+        </dependency>
+
         <!--guava-->
         <dependency>
             <groupId>com.google.guava</groupId>
